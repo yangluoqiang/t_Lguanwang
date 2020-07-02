@@ -1,0 +1,27 @@
+/* 价格透明 */
+.jiage-container{
+    background-color: #fbf5f4;
+    /* padding:  2em; */
+    /* margin-left: 1em; */
+}
+.jiage-container .col-md-3{
+	padding: 0;
+}
+.jiage-container-list{
+	
+	width: 16em;
+	margin-top: 2em!important;
+	margin-bottom: 2em;
+	box-sizing: border-box;
+	margin-left: 2em !important;
+	height: 6.5em;
+	background: #fff;
+}
+.container-list-box{
+	margin-top: 1em;
+}
+.jiage-container-list h4{
+	margin-top: 1em;
+}
+
+/* 您需要确定以下信息及服务 */

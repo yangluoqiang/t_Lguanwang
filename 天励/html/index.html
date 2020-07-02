@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
-
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=no" />
     <title>欢迎来到砺信企服</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/bootstrap-maizi.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/CommonStyle.css" />
+    <!-- <link rel="stylesheet" href="../css/RegistrationInformation.css" /> -->
+    
     <link rel="stylesheet" href="../css/animate.css" />
 
 </head>
@@ -24,19 +27,16 @@
         <div class="nav-top-text">
             <div class="container ">
                 <div class="row ">
-                    <div class="col-md-3">
-                        <h3><small>欢迎来到砺信企服一站式平台</small></h3>
-                    </div>
-                    <div class="col-md-7"></div>
-                    <div class="col-md-2">
-                        <h3><small>商务合作|客服联系</small></h3>
+                    <div class="col-md-12">
+                        <h3 style="float: left;"><small> 一站式网站</small></h3>
+                        <h3 style="float: right"><small>商务合作 | <span class="nav-top-text-span"> 客服联系</span></small></h3>
                     </div>
                 </div>
             </div>
         </div>
         <!-- //文字背景 -->
 
-        <div class="container ">
+        <div class=" container-fluid ">
             <div class="row ">
                 <!--小屏幕导航按钮和logo-->
                 <div class="navbar-header">
@@ -45,14 +45,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <div class="col-md-12">
+                    <div class="col-md-3">
                         <a href="index.html" class="navbar-brand"><img src="../img/logo.png"></a>
+                    </div>
+                    <div class=" rexian rexian1">
+                   
+                        <span class="contact-text">专业会计咨询专线：
+                            <em>18357732313</em>
+                        </span>
+    
                     </div>
                 </div>
                 <!--小屏幕导航按钮和logo-->
                 <!--导航-->
-                <div class="col-md-1"></div>
-                <div class="navbar-collapse collapse col-md-6">
+                <div class="navbar-collapse collapse col-md-2 col-sm-6 col-lg-5">
                     <ul class="nav navbar-nav navbar-right nav-list">
                         <li><a href="#">首页</a></li>
                         <li><a href="#">公司注册</a></li>
@@ -64,9 +70,9 @@
                 </div>
                 <!--导航-->
                 <!-- 专业会计咨询专线： -->
-                <div class="col-md-1"></div>
-                <div class="col-md-3 rexian">
-                    <span class="icon phone"></span>
+                <div class="col-md-1  "></div>
+                <div class="col-md-2 rexian rexian2">
+                   
                     <span class="contact-text">专业会计咨询专线：
                         <em>18357732313</em>
                     </span>
@@ -80,133 +86,166 @@
     <!--导航-->
 
     <!-- 轮播 -->
-    <div id="myCarousel" class="carousel slide home">
+
+    <div id="myCarousel" class="carousel slide home container-fluid">
         <!-- 轮播（Carousel）指标 -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <!-- 轮播（Carousel）项目 -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="../img/02.jpg" alt="First slide">
+        <div class="row">
+            <ol class="carousel-indicators center-bloc">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner center-bloc">
+                <div class="item active">
+                    <img src="../img/02.jpg" alt="First slide" class="img-responsive center-block">
+                </div>
+                <div class="item">
+                    <img src="../img/02.jpg" alt="Second slide" class="img-responsive center-block">
+                </div>
+                <div class="item">
+                    <img src="../img/02.jpg" alt="Third slide" class="img-responsive center-block">
+                </div>
             </div>
-            <div class="item">
-                <img src="../img/02.jpg" alt="Second slide">
-            </div>
-            <div class="item">
-                <img src="../img/02.jpg" alt="Third slide">
-            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <!-- 轮播（Carousel）导航 -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
+
     <!-- 轮播 -->
 
-    <!--home-->
+
+    <!-- PriceTransparency -->
     <!-- 价格透明 -->
     <div class="jiage-container">
-        <div class="container jiage">
+        <div class="container">
             <div class="row">
-                <div class="col-md-3 ">
-                    <div class="clock-list">
-                        <span class="iconcontainer zicon1"></span>
-                        <span class="list-text">拿证快<em class="subtext">快至3天领证</em></span>
+                <div class="col-md-3">
+                    <div class="media jiage-container-list">
+                        <div class="media-left">
+                            <img class="media-object" src="../img/08.png" alt="">
+                        </div>
+                        <div class="media-body container-list-box">
+                            <h4 class="media-heading">拿证快</h4>
+                            <em class="subtext">快至3天领证</em></span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3 ">
-                    <div class="clock-list">
-                        <span class="iconcontainer zicon1"></span>
-                        <span class="list-text">拿证快<em class="subtext">快至3天领证</em></span>
+                    <div class="media jiage-container-list">
+                        <div class="media-left">
+                            <img class="media-object" src="../img/08.png" alt="">
+                        </div>
+                        <div class="media-body ">
+                            <h4 class="media-heading">拿证快</h4>
+                            <em class="subtext">快至3天领证</em></span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="clock-list">
-                        <span class="iconcontainer zicon1"></span>
-                        <span class="list-text">拿证快<em class="subtext">快至3天领证</em></span>
+                <div class="col-md-3">
+                    <div class="media jiage-container-list ">
+                        <div class="media-left">
+                            <img class="media-object" src="../img/08.png" alt="">
+                        </div>
+                        <div class="media-body ">
+                            <h4 class="media-heading">拿证快</h4>
+                            <em class="subtext">快至3天领证</em></span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="clock-list">
-                        <span class="iconcontainer zicon1"></span>
-                        <span class="list-text">拿证快<em class="subtext">快至3天领证</em></span>
+                <div class="col-md-3">
+                    <div class="media jiage-container-list">
+                        <div class="media-left">
+                            <img class="media-object" src="../img/08.png" alt="">
+                        </div>
+                        <div class="media-body ">
+                            <h4 class="media-heading">拿证快</h4>
+                            <em class="subtext">快至3天领证</em></span>
+                        </div>
                     </div>
                 </div>
+
 
             </div>
         </div>
     </div>
     <!-- 价格透明 -->
 
-    <!-- 您需要确定以下信息及服务 -->
-    <div class="container">
-        <div class="contaer-tiele">注册前,您需要确定以下信息及服务</div>
-        <!-- 注册类型 -->
-        <div class="container Registration">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class=" tiele-bj-txt tiele-bj">
+       <!-- 您需要确定以下信息及服务 -->
+       <div class="container">
+        <!-- <div class="contaer-tiele">注册前,您需要确定以下信息及服务</div> -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="tiele-bj-box ">
+                    <div class="tiele-bj-box-list col-md-push-1">
+                        <img src="../img/10.png" class="img-responsive  " />
+                        <h4>公司注册</h4>
+                        <p class="tiele-bj-box-p1">快至3天拿执照</p>
+                        <p class="tiele-bj-box-p2">已成交<span class="tiele-bj-box-color">13521</span>笔</p>
+                        <p class="zixun"><a onclick="#">立即咨询</a></p>
                     </div>
                 </div>
-                <div class="col-md-9 row">
-                    <div class="col-md-3 tiele-bj-box container">
-                        <img src="../img/10.png" />
+            </div>
+            <div class="col-md-3">
+                <div class="tiele-bj-box ">
+                    <div class="tiele-bj-box-list col-md-push-1">
+                        <img src="../img/10.png" class="img-responsive  " />
                         <h4>公司注册</h4>
-                        <p>快至3天拿执照</p>
-                        <p>已成交<span>13521</span>笔</p>
-                        <p class="zixun"><a onclick="ec_cs_fnDialogOK()">立即咨询</a></p>
+                        <p class="tiele-bj-box-p1">快至3天拿执照</p>
+                        <p class="tiele-bj-box-p2">已成交<span class="tiele-bj-box-color">13521</span>笔</p>
+                        <p class="zixun"><a onclick="#">立即咨询</a></p>
                     </div>
-                    <div class="col-md-3 tiele-bj-box container">
-                        <img src="../img/10.png" />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="tiele-bj-box ">
+                    <div class="tiele-bj-box-list col-md-push-1">
+                        <img src="../img/10.png" class="img-responsive  " />
                         <h4>公司注册</h4>
-                        <p>快至3天拿执照</p>
-                        <p>已成交<span>13521</span>笔</p>
-                        <p class="zixun"><a>立即咨询</a></p>
+                        <p class="tiele-bj-box-p1">快至3天拿执照</p>
+                        <p class="tiele-bj-box-p2">已成交<span class="tiele-bj-box-color">13521</span>笔</p>
+                        <p class="zixun"><a onclick="#">立即咨询</a></p>
                     </div>
-                    <div class="col-md-3 tiele-bj-box container">
-                        <img src="../img/10.png" />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="tiele-bj-box ">
+                    <div class="tiele-bj-box-list col-md-push-1">
+                        <img src="../img/10.png" class="img-responsive  " />
                         <h4>公司注册</h4>
-                        <p>快至3天拿执照</p>
-                        <p>已成交<span>13521</span>笔</p>
-                        <p class="zixun"><a>立即咨询</a></p>
+                        <p class="tiele-bj-box-p1">快至3天拿执照</p>
+                        <p class="tiele-bj-box-p2">已成交<span class="tiele-bj-box-color">13521</span>笔</p>
+                        <p class="zixun"><a onclick="#">立即咨询</a></p>
                     </div>
-                    <div class="col-md-3 tiele-bj-box container">
-                        <img src="../img/10.png" />
-                        <h4>公司注册</h4>
-                        <p>快至3天拿执照</p>
-                        <p>已成交<span>13521</span>笔</p>
-                        <p class="zixun"><a>立即咨询</a></p>
-                    </div>
-
                 </div>
             </div>
         </div>
-        <!-- 仅需4步快速注册 全程代办   -->
-
-        <h2 class="text">仅需4步快速注册 全程代办</h2>
-        <h2 class="text  text-small"><small>【省时】快至3天拿证 【省力】摆脱繁琐，让创业简单</small></h2>
-        <!-- 仅需4步快速注册 全程代办   -->
-        <div class="container ">
-
-            <div class="row center-block-img">
-                <img src="../img/02.png" class="col-md-12">
-            </div>
-        </div>
-
     </div>
+    <!-- 您需要确定以下信息及服务 -->
+    <!-- 仅需4步快速注册 全程代办   -->
+
+    <h2 class="contaer-tiele">仅需4步快速注册 全程代办</h2>
+    <h2 class=" contaer-tiele-txt"><small>【省时】快至3天拿证 【省力】摆脱繁琐，让创业简单</small></h2>
+    <!-- 仅需4步快速注册 全程代办   -->
+    <div class="container center-block ">
+        <div class="row ">
+            <img src="../img/02.png" class="img-responsive col-md-12">
+        </div>
+    </div>
+
+
     <!-- 您需要确定以下信息及服务 -->
 
     <!-- 申请注册按钮 -->
-    <div class="btn-center">
-        <div class="morebox mt50">
+    <div class="btn-center btnanniu">
+        <div class="morebox">
             <a class="more" href="#">申请注册</a>
         </div>
     </div>
@@ -214,9 +253,8 @@
 
     <div class="banli">
         <!-- 仅需4步快速注册 全程代办   -->
-
-        <h2 class="text">办理完成 即可领取以下证件</h2>
-        <h2 class="text  text-small"><small>一站式办理证件 便捷 高效</small></h2>
+        <h2 class="contaer-tiele">仅需4步快速注册 全程代办</h2>
+        <h2 class=" contaer-tiele-txt"><small>【省时】快至3天拿证 【省力】摆脱繁琐，让创业简单</small></h2>
         <!-- 仅需4步快速注册 全程代办   -->
 
         <!-- 办理完成 即可领取以下证件 -->
@@ -225,28 +263,28 @@
                 <div class="row">
                     <div class="col-md-2">
                         <div class="container-fluid-box">
-                            <img src="../img/04.jpg" alt="营业执照正本">
+                            <img src="../img/04.jpg" class="img-responsive center-block" alt="营业执照正本">
                             <h4 class="zhengjian-h4">营业执照正本</h4>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <img src="../img/04.jpg" alt="营业执照正本">
+                        <img src="../img/04.jpg" class="img-responsive center-block" alt="营业执照正本">
                         <h4 class="zhengjian-h4">营业执照正本</h4>
                     </div>
                     <div class="col-md-2">
-                        <img src="../img/04.jpg" alt="营业执照正本">
+                        <img src="../img/04.jpg" class="img-responsive center-block" alt="营业执照正本">
                         <h4 class="zhengjian-h4">营业执照正本</h4>
                     </div>
                     <div class="col-md-2">
-                        <img src="../img/04.jpg" alt="营业执照正本">
+                        <img src="../img/04.jpg" class="img-responsive center-block" alt="营业执照正本">
                         <h4 class="zhengjian-h4">营业执照正本</h4>
                     </div>
                     <div class="col-md-2">
-                        <img src="../img/04.jpg" alt="营业执照正本">
+                        <img src="../img/04.jpg" class="img-responsive center-block" alt="营业执照正本">
                         <h4 class="zhengjian-h4">营业执照正本</h4>
                     </div>
                     <div class="col-md-2">
-                        <img src="../img/04.jpg" alt="营业执照正本">
+                        <img src="../img/04.jpg" class="img-responsive center-block" alt="营业执照正本">
                         <h4 class="zhengjian-h4">营业执照正本</h4>
                     </div>
                 </div>
@@ -313,15 +351,15 @@
 
     <!-- 近期成交客户动态 -->
     <div class="container-box1">
-        <h3 class="text">近期成交客户动态</h3>
+        <h2 class="contaer-tiele">近期成交客户动态</h2>
         <div class="container">
             <div class="row">
-              
-                <img src="../img/12.png" class="col-md-12" />
-              
+
+                <img src="../img/12.png" class="col-md-12 img-responsive center-block container-img-first" />
+
             </div>
         </div>
-        <div class="container-box-last" ><img src="../img/13.jpg" />
+        <div class="container-box-last"><img src="../img/13.jpg" />
             <div class="clear"></div>
         </div>
         <div class="clear"></div>
@@ -330,76 +368,240 @@
 
     <img src="../img/05.png" class="center-block" />
 
+    </div>
 
-    <!-- 公司注册 -->
     <div class="container">
-
-        <div class="btn-group btn-style-css" role="group">
-            <button type="button" class="btn btn-default">申请注册</button>
-            <button type="button" class="btn btn-default">申请注册</button>
-            <button type="button" class="btn btn-default">申请注册</button>
-        </div>
-        <!-- 个人独资企业不是公司啊，如果还不知道的公司老板们，请 -->
-        <div class="row">
-            <div class="col-md-9">
-                <ul class="row">
-                    <li class="col-md-4">
-                        <img src="../img/06.png" />
-                    </li>
-                    <li class="col-md-8">
-                        <h5>个人独资到底是不是公司</h5>
-                        <h5>个人独资企业不是公司啊，如果还不知道的公司老板们，请转发让他们看到这一篇！
-                            为何会有人认为个人独资企业是公司呢？小编一直很费解。</h5>
-                        <h5>2018-03-15</h5>
-                    </li>
-                </ul>
-                <ul class="row">
-                    <li class="col-md-4">
-                        <img src="../img/06.png" />
-                    </li>
-                    <li class="col-md-8">
-                        <h5>个人独资到底是不是公司</h5>
-                        <h5>个人独资企业不是公司啊，如果还不知道的公司老板们，请转发让他们看到这一篇！
-                            为何会有人认为个人独资企业是公司呢？小编一直很费解。</h5>
-                        <h5>2018-03-15</h5>
-                    </li>
-                </ul>
-                <ul class="row">
-                    <li class="col-md-4">
-                        <img src="../img/06.png" />
-                    </li>
-                    <li class="col-md-8">
-                        <h5>个人独资到底是不是公司</h5>
-                        <h5>个人独资企业不是公司啊，如果还不知道的公司老板们，请转发让他们看到这一篇！
-                            为何会有人认为个人独资企业是公司呢？小编一直很费解。</h5>
-                        <h5>2018-03-15</h5>
-                    </li>
-                </ul>
+        <div class="newscontent">
+            <div class="newstab row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <span class="curr">公司注册</span>
+                    <span>代理记账</span>
+                    <span>商标注册</span>
+                </div>
+                <div class="col-md-3"></div>
             </div>
-            <div class="col-md-3">
-                <div>
-                    <h5>创业干货</h5>
-                    <h5>据了解，分公司受总公司管理，但同时也是一个独立的公司体系，与公司一样，分公司也需要进行注册，</h5>
-                    <h5>2018-03-15</h5>
+            <div class="newscontainer row">
+                <div class="tab-box cl " style="display: block;">
+                    <div class="tableft fl col-md-4">
+                        <div class="tableft-list">
+                            <div class="lnimg"><img src="../img/06.png">
+                            </div>
+                            <div class="lntext">
+                                <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">个人独资企业到底是不是公司</a></h4>
+                                <p class="subtext">
+                                    个人独资企业不是公司啊，如果还不知道的公司老板们，请转发让他们看到这一篇！为何会有人认为个人独资企业是公司呢？小编一直很费解。</p>
+                                <p class="lntime">2018-03-15</p>
+                            </div>
+                        </div>
+                        <div class="tableft-list">
+                            <div class="lnimg"><img src="../img/06.png">
+                            </div>
+                            <div class="lntext">
+                                <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">创业需知
+                                        公司注册资本千万不能乱登记</a></h4>
+                                <p class="subtext">
+                                    据了解，2015年《公司法》修改后，《公司法》对注册资本实行改革，实缴登记制度转变为认缴登记制度，工商部门只登记公司认缴的注册资本总额，无需登记实收资本，不再收取验资证明文件。改革旨在取消设立公司的门槛，降低设立公司的成本，激励创业，同时，转变政府职能，进行"宽进严管"，将注册资本的数额、股东认缴的出资额、出资方式和出资期限交由公司发起人自主约定，投资人要对缴纳出资情况真实性、合法性负责
+                                </p>
+                                <p class="lntime">2018-03-15</p>
+                            </div>
+                        </div>
+                        <div class="tableft-list">
+                            <div class="lnimg"><img src="../img/06.png">
+                            </div>
+                            <div class="lntext">
+                                <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">注册公司营业执照经营范围
+                                        怎么写才正确安全</a></h4>
+                                <p class="subtext">
+                                    什么是营业执照？营业执照是工商行政部门发给企业单位准许从事经营活动的证书凭证。公司名称、证照代码、注册资本、经营范围都是通过各方验证国家统一格式确定的，营业执照经营范围中存在的误区您知道吗?不清楚的话今天就跟着小编一起来看看吧！
+                                </p>
+                                <p class="lntime">2018-03-15</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tabright fr col-md-5">
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">创业干货 分公司注册所需资料有哪些
+                                </a></h4>
+                            <p class="subtext">
+                                据了解，分公司受总公司管理，但同时也是一个独立的公司体系，与公司一样，分公司也需要进行注册，才能合法经营。分公司是公司的一个下属机构，一个分支。那么，分公司注册所需资料有哪些？下面，就让小编来告诉你吧!
+                            </p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">创业干货 公司注册时经营范围这么写
+                                </a></h4>
+                            <p class="subtext">
+                                据了解，现在工商登记的时候对经营范围的填写没有明确的规定，既没有字数要求，也没有类别等的限制，但是一般来说呢，经营范围还是要尽可能的规范、易懂，而且要注意，经营范围可不是单纯的你卖啥就填写啥那么简单，这里面有很多问题都是要格外注意的，千万要慎重。
+                            </p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">创业答疑 香港注册公司可以在北京经营吗
+                                </a></h4>
+                            <p class="subtext">在香港注册公司可以在北京经营吗?
+                                据了解，香港公司注册地是在香港，是受到香港公司条例约束，而不受大陆公司条例管制，如果香港公司在大陆挂牌经营，按照大陆的法律角度来说是属于非法经营的。所以，香港公司是不能直接在内地经营的，只能以授权或监制等方式在内地经营!
+                            </p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">创业干货 注册公司流程 </a>
+                            </h4>
+                            <p class="subtext">
+                                据了解，普通的有限责任公司，最低注册资金3万元，需要2个(或以上)股东，从06年1月起新的公司法规定，允许1个股东注册有限责任公司，这种特殊的有限责任公司又称“一人有限公司”(但公司名称中不会有“一人”字样，执照上会注明“自然人独资”)，最低注册资金10万元。
+                            </p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+
+                    </div>
                 </div>
-                <div>
-                    <h5>创业干货</h5>
-                    <h5>据了解，分公司受总公司管理，但同时也是一个独立的公司体系，与公司一样，分公司也需要进行注册，</h5>
-                    <h5>2018-03-15</h5>
+                <div class="tab-box cl">
+                    <div class="tableft fl">
+                        <div class="tableft-list">
+                            <div class="lnimg"><img src="../img/06.png">
+                            </div>
+                            <div class="lntext">
+                                <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">如何享受税收优惠的政策？</a>
+                                </h4>
+                                <p class="subtext">为推进大众创业、万众创新，国家税务总局发布了《“大众创业
+                                    万众创新”税收优惠政策指引》。截至2017年5月10日，我国针对创业就业主要环节和关键领域陆续推出了83项税收优惠措施，尤其是2013年以来，新出台了73项税收优惠，覆盖企业整个生命周期。
+                                </p>
+                                <p class="lntime">2018-03-15</p>
+                            </div>
+                        </div>
+                        <div class="tableft-list">
+                            <div class="lnimg"><img src="../img/06.png">
+                            </div>
+                            <div class="lntext">
+                                <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">你是新办企业吗？这
+                                        7大办税误区需注意！</a></h4>
+                                <p class="subtext">“大众创业
+                                    万众创新”这一理念正在全国范围内兴起，新兴企业就如同新生儿般承载着期待与厚望，但是税务机关在服务管理的过程中发现，新办企业总会遇到一些办税误区。小编今天就会带领大家梳理一下这7大应引起重视的问题，希望新办企业能少走弯路，合法经营、茁壮成长。
+                                </p>
+                                <p class="lntime">2018-03-15</p>
+                            </div>
+                        </div>
+                        <div class="tableft-list">
+                            <div class="lnimg"><img src="../img/06.png">
+                            </div>
+                            <div class="lntext">
+                                <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">个体户需要代理记账吗？</a>
+                                </h4>
+                                <p class="subtext">我公司不经营不开票，为什么要记账报税？我一个小小的个体户，难道还要报税？</p>
+                                <p class="lntime">2018-03-15</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tabright fr">
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">你相信吗，做了这些公司真的就没被税务局稽查啦！ </a>
+                            </h4>
+                            <p class="subtext">
+                                税务稽查如果来了，就问你怕不怕？讲真，没有哪个企业是不怕的。他们一代表国家征税，二为公务人员，要为企业服务，企业呢，怕会计账有纰漏，被税务盯上，被税务查到，被税务处罚。若自己有理也不敢太过争辩，想着以后还要在这块地界上经营，多少会顾虑自己会不会被穿小鞋。所以，我们...
+                            </p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">什么是“1+4+6”系列减税政策？赶紧学起！ </a>
+                            </h4>
+                            <p class="subtext">
+                                4月19日，国务院常务会议决定再度推出六大减税举措。具体体现为由“1＋4＋6”构成的系列减税政策。这个你要问了，什么是“1＋4＋6”系列减税政策呢？我这里就要讲讲。“1＋4”为首次执行的政策，“6”是指6项执行到期后今年延续执行的税收政策。
+                            </p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">个体户：筹备期未经营 是否需要记账报税
+                                </a></h4>
+                            <p class="subtext">
+                                很多个体户老板在听完自己也需要缴税的文章之后都来咨询，问：我们工商注册好了，但是还没开始经营呀，一切都在筹备中呢，这个也需要记账报税？</p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">如何享受税收优惠的政策？ </a>
+                            </h4>
+                            <p class="subtext">
+                                关于公司如何节税？打从成为老板的那一天起就成为了一个睁眼起床就会想的事情。可不是吗！钱啊~是必须翻过去倒过来的琢磨和寻思的，怎样才能赚的更多，节税更多？小编告诉你吧。
+                            </p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+
+                    </div>
                 </div>
-                <div>
-                    <h5>创业干货</h5>
-                    <h5>据了解，分公司受总公司管理，但同时也是一个独立的公司体系，与公司一样，分公司也需要进行注册，</h5>
-                    <h5>2018-03-15</h5>
-                </div>
-                <div>
-                    <h5>创业干货</h5>
-                    <h5>据了解，分公司受总公司管理，但同时也是一个独立的公司体系，与公司一样，分公司也需要进行注册，</h5>
-                    <h5>2018-03-15</h5>
+                <div class="tab-box cl">
+                    <div class="tableft fl">
+                        <div class="tableft-list">
+                            <div class="lnimg"><img src="../img/06.png">
+                            </div>
+                            <div class="lntext">
+                                <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">注册商标的好处有哪些？企业注册商标的好处</a>
+                                </h4>
+                                <p class="subtext">
+                                    “国家平台成就国家品牌”---随着央视广告的热播，近几年从国家层面越来越重视和扶持民族品牌的崛起，“国货优先”也是这几天两会代表们...</p>
+                                <p class="lntime">2018-03-15</p>
+                            </div>
+                        </div>
+                        <div class="tableft-list">
+                            <div class="lnimg"><img src="../img/06.png">
+                            </div>
+                            <div class="lntext">
+                                <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">2018申请续展注册商标指南</a></h4>
+                                <p class="subtext">
+                                    以下“申请续展注册商标”内容于2018年2月修订，如果以后发生变动，或者在办理中与商标注册大厅接待人员的要求不一致的，应以工作人员...</p>
+                                <p class="lntime">2018-03-15</p>
+                            </div>
+                        </div>
+                        <div class="tableft-list">
+                            <div class="lnimg"><img src="../img/06.png">
+                            </div>
+                            <div class="lntext">
+                                <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">2017年中国知识产权工作进展</a></h4>
+                                <p class="subtext">PCT国际专利申请受理量5.1万件，同比增长12.5%。实用新型和外观设计申请量分别为1…</p>
+                                <p class="lntime">2018-03-15</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tabright fr">
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">申请著名商标的好处及2018年广州、深圳各区补贴明细
+                                </a></h4>
+                            <p class="subtext">
+                                重视企业品牌战略、注重品牌保护的企业。一方面提升品牌价值，不但有助于产品宣传，还有助于无形资产提升和质押融资门槛;另一方面还能起到在商号方面的保护，弥补商标权和商号权保护不对称的不足，为企业实施商标品牌战略，奠定坚实的基础!
+                            </p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">商标注册需要准备哪些工作？ </a>
+                            </h4>
+                            <p class="subtext">
+                                我们需要明确知道的是，不是所有申请的商标都会被核准注册的，所以办理商标注册一定要做好准备。比如前期的商标查询工作就十分重要，如果没有进行全面的商标查询工作，申请的商标图样早已存在相同的在先商标，那么前期投入的费用和相关准备将前功尽弃。
+                            </p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">如何申请商标保护?商标被抢注了怎么办?
+                                </a></h4>
+                            <p class="subtext">
+                                据媒体报道，这几年，各地企业纷纷抢注与“阳明”相关的商标，截至目前申请数量已经超过110多次，王阳明成为近年来商标界“最忙”的历史名人，商标界资深人士认为，尽管这两三年，绍兴也申请注册了一批与“阳明”相关的商标
+                            </p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+                        <div class="lntext">
+                            <h4><a href="javascript:ec_cs_fnDialogOK()" target="_blank">商标转让和商标许可，哪个是企业最优选择？
+                                </a></h4>
+                            <p class="subtext">随着时代的发展，商标得到了企业越来越多的重视，近似商标、商标抢注现象的发生，让企业更加重视维护自身的商标权益。
+                                面对名目众多的法规条款和复杂的申请流程，企业更需要一个对各种条款更为熟悉的机构来代为申请</p>
+                            <p class="lntime">2018-03-15</p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- 照片墙 -->
     <div class="container zhaopian">
         <h1>专业的团队赢得客户认可</h1>
@@ -413,30 +615,39 @@
             <img class="g" src="../img/a.png">
             <img class="h" src="../img/a.png">
             <img class="i" src="../img/a.png">
+            <img class="g" src="../img/a.png">
+            <img class="h" src="../img/a.png">
+            <img class="i" src="../img/a.png">
+            <img class="g" src="../img/a.png">
+            <img class="h" src="../img/a.png">
+
         </div>
     </div>
     <!-- 合作伙伴 -->
-    <div class="container-box-hezuo">
+    <div class="huoban">
         <h1>合作伙伴</h1>
         <div class="container">
-            <img src="../img/07.jpg" alt="">
+            <img src="../img/07.jpg" class="img-responsive center-block" alt="">
         </div>
     </div>
     <footer>
-        <div class="container">
+        <div class="container-fluid clear">
             <div class="row">
-                <ul class="col-md-8">
-                    <li><a href="">公司注册</a></li>/
-                    <li><a href="">公司注册</a></li>/
-                    <li><a href="">公司注册</a></li>/
-                    <li><a href="">公司注册</a></li>/
-                    <li><a href="">公司注册</a></li>/
-                    <li><a href="">公司注册</a></li>
+                <!-- <div class="col-md-3"></div> -->
+                <ul class="footer-left footer-left-li">
+                    <li><a href="">公司注册</a>/</li>
+                    <li><a href="">公司注册</a>/</li>
+                    <li><a href="">公司注册</a>/</li>
+                    <li><a href="">公司注册</a>/</li>
+                    <li><a href="">公司注册</a>/</li>
+                    <li><a href="">公司注册</a>/</li>
                 </ul>
-                <div class="col-md-4">
-                    专业会计咨询专线：18357732313
+                <div class="footer-right">
+                    专业会计咨询专线：<em>18357732313</em>
                 </div>
+                <div></div>
             </div>
+        </div>
         </div>
     </footer>
     <!--footer-->
@@ -446,23 +657,7 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/jquery.singlePageNav.min.js"></script>
     <script src="../js/wow.min.js"></script>
-    <script>
-        $(function () {
-            /*导航跳转效果插件*/
-            $('.nav').singlePageNav({
-                offset: 70
-            });
-            /*小屏幕导航点击关闭菜单*/
-            $('.navbar-collapse a').click(function () {
-                $('.navbar-collapse').collapse('hide');
-            });
-            new WOW().init();
-            // 轮播时间
-            $('#myCarousel').carousel({
-                interval: 1500
-            })
-        })
-    </script>
+    <script src="../js/CommonStyle.js"></script>
 </body>
 
 </html>

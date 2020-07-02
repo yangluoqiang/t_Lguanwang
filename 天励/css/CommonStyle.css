@@ -1,0 +1,284 @@
+/* 全局样式 */
+*{
+	padding: 0; 
+	margin: 0; 
+	line-height: normal; 
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+ }
+html{ 
+	width: 100%; 
+	font-size: 0.18em;
+    min-width: 1200px;
+    /* overflow-x:hidden; */
+    /* 永远不要出现横向滚动条 */
+}
+body{ 
+	height: 100%; 
+	font-family: 'Arail','microsoft yahei'; 
+	background: #fff; 
+	padding: 0; 
+    margin: 0; 
+    /* overflow-x:hidden; */
+    /* 永远不要出现横向滚动条 */
+}
+ul,ol,li{
+	list-style: none;
+}
+p,span,em,i{ 
+	font-style: normal; 
+	padding: 0; 
+	margin: 0; 
+}
+h1,h2,h3,h4,h5,h6{ 
+	padding: 0; 
+	margin: 0; 
+	background: none; 
+}
+a{ 
+	color: #000; 
+	text-decoration: none; 
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+	-moz-user-select: none; 
+}
+img{
+	border: 0;
+}
+.clear{
+    clear: both;
+}
+/*����*/
+.navbar-default{
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+
+.navbar-brand img{
+    width: 8.6em;
+    height:2.1em;
+}
+
+
+.navbar-default .navbar-nav>li:hover>a{
+    color: #40D2B1 !important;
+}
+.navbar-toggle{
+    margin-top: 1em;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color: #40D2B1;
+    background-color: rgb(69, 210, 184);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1C9982;
+}
+.top-img img{
+  
+    width: 100%;
+    margin: 0 auto;
+    height: 3.3em;
+}
+
+
+/* 文字背景 */
+.nav-top-text{
+    background-color: #f7f1f1;
+
+}
+.nav-top-text-span{
+    color: #018bd3;
+}
+.nav-top-text h3{
+    margin: 0;
+    line-height: 2em;
+}
+/* 导航栏颜色 */
+.navbar-default .navbar-nav>li>a {
+    font-size: 1em;
+    font-weight: bold;
+    color: #666;
+    line-height: 2em;
+    font-family: "微软雅黑";
+
+}
+
+.navbar-default .navbar-nav>li:hover>a{
+    color: #40D2B1 !important;
+    background-color: #7296d4;
+}
+.navbar-toggle{
+    margin-top: 17px;
+}
+.navbar-default .navbar-toggle:hover {
+    border-color: #40D2B1;
+    background-color: rgb(69, 210, 184);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1C9982;
+}
+/* 专业会计咨询专线： */
+.rexian{
+    float: right;
+}
+.contact-text{
+	color: #808080
+}
+
+.contact-text em{
+	font-family: 'Bodoni Bd BT';
+	color: #018bd3;
+	font-size: 1.5em;
+	display: block;
+        font-weight: bold;
+}
+
+/*home*/
+.home{
+    margin-top: 10em;
+}
+.home img{
+    width: 100%;
+  
+}
+
+/* <!-- 您需要确定以下信息及服务 --> */
+
+
+/* 申请注册按钮 */
+.more{
+    text-align: center;
+	font-size: 1.8em;
+	color: #fff;
+	height: 30%;
+	min-width: 5em;
+	line-height: 2em;
+	background: -webkit-linear-gradient(#fd3d2a, #e52930);
+	background: -o-linear-gradient(#fd3d2a, #e52930);
+	background: linear-gradient(#fd3d2a, #e52930);
+	background: #fd3d2a\0;
+	*background: #fd3d2a;
+	padding: 0 1.8em;
+	display: inline-block;
+	*zoom:1;
+	*display: inline;
+	border-radius: 50px;
+	transition: box-shadow .1s;
+}
+
+.more:hover{
+	box-shadow: 0 0.22em 0.22em #f9aba6;
+}
+/* 申请注册按钮 */
+
+
+.contaer-tiele{
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 5em;
+    margin: 2em 0 0.5em 0;
+}
+
+.contaer-tiele-txt{
+    margin-bottom:1.5em;
+    text-align: center;
+}
+
+/*footer*/
+
+footer {
+	font-weight: 400;
+	text-align: center;
+    padding: 2em;
+    background-color: #282828;
+    color: white;
+}
+.footer-left{
+    float: left;
+}
+.footer-right{
+    float: right;
+}
+.footer-right em{
+    font-family: 'Bodoni Bd BT';
+    color: #de8e4e;
+}
+.footer-left-li li{
+    float: left;
+}
+.footer-left-li li a{
+    color: white;
+    padding: 0.5em; 
+}
+/*footer*/
+/* 媒体查询 */
+
+@media screen and (max-width:1200px) {
+	/* footer{
+		padding: 2em 5em;
+	} */
+}
+
+@media screen and (min-width:990px) and (max-width:1199px) {
+	.rexian1 {
+		display: none !important;
+	}
+	.rexian2 {
+		display: block !important;
+	}
+	footer{
+		padding:2em 8em ;
+		box-sizing: border-box;
+	}
+
+}
+
+@media screen and (min-width:750px) and (max-width:991px) {
+	.rexian2 {
+		display: none;
+	}
+	.rexian1 {
+		display: block;
+    }
+    footer{
+		padding:2em 18em ;
+		box-sizing: border-box;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	.nav>li>a {
+		padding: 10px 7px;
+	}
+	.navbar-toggle {
+		float: left !important;
+		margin-right: 200px !important;
+	}
+	.rexian2 {
+		display: none !important;
+	}
+
+}
+
+@media screen and (max-width:768px) {
+	.rexian2 {
+		display: none !important;
+	}
+	.rexian{
+		margin-top: 0.5em;
+		font-size:0.8em
+	}
+	.nav>li{
+		border-bottom: solid 1px #666;
+		line-height: 0.5em;
+	}
+	.nav>li>a{
+/* margin-bottom: -1em; */
+margin-left: 0.5em;
+padding-left: 0;
+
+
+	}
+}
