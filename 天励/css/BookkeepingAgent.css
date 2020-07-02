@@ -1,0 +1,159 @@
+.BookkeepingAgent-box{
+    width: 305px;
+    height: 370px;
+    background: url(../img/17.png)no-repeat center center !important;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.trableimg {
+    width: 280px;
+    height: 198px;
+    padding-left: 19px;
+}
+.trableimg img{
+    width: 100%;
+}
+.tratext {
+    padding: 25px 50px 0 35px;
+}
+.tratitle {
+    font-size: 20px;
+    color: #f39b55;
+}
+.trablereason {
+    color: #666;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+
+/* 记账优势 */
+.ystext-box{
+    position: relative;
+    width: 380px;
+    height: 311px;
+    margin: 15px 12px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    overflow: hidden;
+}
+.ystext {
+    position: absolute;
+    color: #fff;
+    right: 0;
+    bottom: 0;
+    width: 63%;
+    height: 68px;
+    padding-right: 20px;
+}
+.ystext p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.ystext-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+/* 记账优势 */
+
+/* 记账常见问题 */
+.grap {
+    margin-top: 50px;
+    background: #f5f5f5;
+    padding: 50px 0;
+}
+.trouble ul {
+    font-size: 0;
+    margin: 0 -15px;
+}
+.question ul li {
+    width: 100%;
+    margin: 0;
+}
+.trouble li {
+    font-size: 18px;
+    width: 585px;
+    padding: 25px 0;
+    border-bottom: 1px dashed #eee;
+    margin: 0 15px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+.q {
+    color: #fd3d2a;
+}
+.trouble li > p em {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    border-bottom-right-radius: 0;
+    text-align: center;
+    vertical-align: top;
+}
+.q em {
+    background: #fd3d2a;
+}
+.question li > p i {
+    max-width: 1160px;
+    line-height: 30px;
+}
+.q i {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.a1 {
+    margin-top: 20px;
+}
+.a1 em {
+    background: #f39b55;
+}
+.a1>i{
+    color: #666;
+}
+/* 记账常见问题 */
+
+/* 照片墙 */
+#zhaopian-container{
+    margin-bottom: 100px;
+}
+/* 以下服务 */
+#fuwu{
+margin-top: 170px;
+padding-top: 20px 0;
+background-color: #018bd3;
+padding: 50px;
+}
+.thumbnail{
+    width: 212px;
+    height: 201px;
+    /* border: solid 1px red; */
+    border-radius: 15px;
+    text-align: center;
+}
+.thumbnail span{
+    padding: 8px;
+    font-size: 70px;
+    display: block;
+    
+    color: red;
+}
+.thumbnail p{
+    padding: 10px 30px;
+}
+#fuwu .titlebox{
+    margin-bottom: 30px;
+    color: white;
+}
+#fuwu .subtitle small{
+    color: #f8db3a;
+}
+/* 以下服务 */
